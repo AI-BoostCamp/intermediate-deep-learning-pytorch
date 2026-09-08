@@ -119,8 +119,6 @@ DCGAN · CGAN · ACGAN · infoGAN 까지 생성 모델을 구현한다. 장 번�
   새(또는 여러 물체가 든) 사진을 아무거나 올리면 된다. Google Drive 연결은 필요 없다.
 - **모델 저장** — GAN 실습(6.4 · 6.5)은 학습된 generator 를 Colab 세션의 `/content/models/PT/` 에 저장한다.
   세션이 끝나면 사라지므로 남기려면 Drive 에 복사한다.
-- **Weights & Biases** — 참고 노트북 `3.1.2.0.ConvNet_WnB.ipynb` 만 W&B 계정과 API 키가 필요하다. 키는
-  노트북에 적지 말고 Colab 보안 비밀(secrets)이나 `wandb login` 으로 입력한다.
 
 ## 저자
 
